@@ -1,0 +1,19 @@
+* Windows Hacker Programming Technical Details
+The original code is Visual Studio project written in MFC, and this
+repository transform it into CMake project.
+
+** How to build
+You should install MSVC and have cmake executable file. Type in
+command line:
+#+BEGIN_SRC sh
+vcvars32.bat
+#+END_SRC
+
+for 32 bits or
+#+BEGIN_SRC sh
+vcvars64.bat
+#+END_SRC
+for 64bits.
+
+** License
+MIT Licese

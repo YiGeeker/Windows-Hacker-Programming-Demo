@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/Documents/Programming/C++/Windows_Hacker_Programming_Demo/DelayLoadDll_Test/build",
+  "command": "\"C:\\PROGRA~2\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\Hostx86\\x86\\cl.exe\"  /nologo /TP  -ID:\\Documents\\Programming\\C++\\Windows_Hacker_Programming_Demo\\DelayLoadDll_Test\\inc /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG /FoCMakeFiles\\DelayLoadDll_Test.dir\\src\\DelayLoadDll_Test.cpp.obj /FdCMakeFiles\\DelayLoadDll_Test.dir\\ /FS -c D:\\Documents\\Programming\\C++\\Windows_Hacker_Programming_Demo\\DelayLoadDll_Test\\src\\DelayLoadDll_Test.cpp",
+  "file": "D:/Documents/Programming/C++/Windows_Hacker_Programming_Demo/DelayLoadDll_Test/src/DelayLoadDll_Test.cpp"
+}
+]

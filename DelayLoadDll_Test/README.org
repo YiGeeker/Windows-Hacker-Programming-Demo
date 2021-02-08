@@ -1,0 +1,24 @@
+* How to build
+Change to the directory where /CMakeLists.txt/ exists, and type in
+command line:
+
+#+BEGIN_SRC sh
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+#+END_SRC
+
+for 32 bits or
+
+#+BEGIN_SRC sh
+cmake -S . -B build -A x64 -DCMAKE_BUILD_TYPE=Release
+#+END_SRC
+
+for 64bits.
+
+When the command above finishes successfully, type
+
+#+BEGIN_SRC sh
+cmake --build build --target install
+#+END_SRC
+
+You will get DelayLoadDll_Test.exe in the bin directory. The pre-built
+binaries can be download here: [[https://github.com/YiGeeker/Windows-Hacker-Programming-Demo/releases/tag/Windows-Hacker-Programming][executable files]]

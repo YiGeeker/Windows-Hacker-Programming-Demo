@@ -1,0 +1,25 @@
+# Exclude everything except what maintained by hand
+
+# Directories
+/CreateMutex_Test/*
+/DelayLoadDll_Test/*
+
+# CreateMutex_Test
+!/CreateMutex_Test/CMakeLists.txt
+!/CreateMutex_Test/CreateMutex_Test.cpp
+!/CreateMutex_Test/compile_commands.json
+!/CreateMutex_Test/README.org
+
+# DelayLoadDll_Test
+!/DelayLoadDll_Test/CMakeLists.txt
+!/DelayLoadDll_Test/compile_commands.json
+!/DelayLoadDll_Test/README.org
+!/DelayLoadDll_Test/src/
+!/DelayLoadDll_Test/inc/
+!/DelayLoadDll_Test/lib/
+!/DelayLoadDll_Test/res/
+!/DelayLoadDll_Test/bin/
+/DelayLoadDll_Test/bin/*
+!/DelayLoadDll_Test/bin/skinppwtl.dll
+!/DelayLoadDll_Test/bin/Skins/
+
